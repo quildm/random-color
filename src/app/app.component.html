@@ -1,0 +1,26 @@
+
+<p>-ngStyle-</p>
+<span [ngStyle]="{
+    'background-color': 'green',
+    'font-weight': 'bold'
+  }" >ngStyle</span><br>
+  
+  <span [ngStyle]="{
+    'background-color': randomcolor,
+    'font-weight': 'bold'
+  }" >ngStyle w/random</span><br>
+  <p>{{number}}</p>
+  <span [ngStyle]="{
+    'background-color': randomcolor,
+    'font-weight': 'bold'
+  }" >ngStyle w/random</span><br>
+  <p>{{number}}</p>
+ 
+
+  <span class='red'>Styling</span><br>
+  <span [ngClass]="{ 'on': switch }">I should be yellow.</span><br>
+  
+  <span [ngClass]="{ 'on': 1===1 }">I should be yellow.</span><br>
+  
+
+  
